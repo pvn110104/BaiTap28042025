@@ -35,10 +35,10 @@ class AddStudentActivity : AppCompatActivity() {
             .setPositiveButton("Có") {_, _ ->
                 buttonSave.performClick()
             }
-            .setNeutralButton("Không") {_, _ ->
+            .setNegativeButton("Không") {_, _ ->
                 finish()
             }
-            .setNegativeButton("Huỷ", null)
+            .setNeutralButton("Huỷ", null)
             .show()
     }
 
